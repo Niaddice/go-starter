@@ -1,0 +1,8 @@
+<sqls>
+    <sql id="find1">
+        SELECT * FROM servers WHERE serverIP1 = ?;
+    </sql>
+    <sql id="find2">
+        SELECT * FROM servers WHERE serverIP2 = ?;
+    </sql>
+</sqls>

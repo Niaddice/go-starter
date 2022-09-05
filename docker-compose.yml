@@ -1,0 +1,12 @@
+version: '3'
+services:
+  gantt-api:
+    container_name: go-starter
+    restart: always
+    image: go-starter
+    ports:
+      - "8092:8092"
+    volumes:
+      - ./log:/go/src/go-starter/log
+      - ./resource:/go/src/go-starter/resource
+      - /etc/localtime:/etc/localtime
